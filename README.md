@@ -60,7 +60,7 @@ docker-compose up -d
 Open your browser and go to:
 
 ```
-http://<your-server-ip>:8081
+http://<your-server-ip>:8000
 ```
 
 Login using:
