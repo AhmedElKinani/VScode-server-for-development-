@@ -1,0 +1,14 @@
+services:
+  code-server:
+    image: ahmadnassri/vscode-server:latest
+    container_name: vscode-server
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server-data:/root/.vscode/server-data
+      - ./user-data:/root/.vscode/user-data
+      - ./cli-data:/root/.vscode/cli-data
+      - ./extensions:/root/.vscode/extensions
+    environment:
+      PASSWORD: "password"
