@@ -47,8 +47,8 @@ services:
 
 ### 1️⃣ Clone or Copy the Project
 ```bash
-git clone https://github.com/<your-username>/vscode-server.git
-cd vscode-server
+git clone https://github.com/AhmedElKinani/VScode-server-for-development-.git
+cd VScode-server-for-development
 ```
 
 ### 2️⃣ Start the Container
